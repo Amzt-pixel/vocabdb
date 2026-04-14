@@ -1,0 +1,321 @@
+uid,numid,word,category,role,definition1,definition2,example1,example2,example3,example4,example5,bengali_def,bengali_ex1,bengali_ex2,bengali_ex3,refword,usage,review_note,comment,creation_date,active
+1,4.0,Strengthen,1,Transitive Verb,To make something stronger or more secure.,,Regular exercise will strengthen both your body and your resolve.,,,,,Bengali translation of Strengthen,,,,,0,False,,2025-05-30 14:08:15,True
+2,200.0,Let off the hook,2,Idiomatic Expression,The meaning or usage of Let off the hook.,,An example sentence using Let off the hook in context.,,,,,Bengali translation of Let off the hook,,,,,3,True,,2025-08-09 14:08:15,True
+3,200.1,Buckle down,3,Phrasal Verb,To start working hard on something.,,The team buckled down after the manager's firm warning.,,,,,Bengali translation of Buckle down,,,,,3,False,,2025-09-27 14:08:15,True
+4,4.0,Strengthen,1,Transitive Verb,To make something stronger or more secure.,,Regular exercise will strengthen both your body and your resolve.,,,,,,,,,,0,False,,2025-07-03 14:08:15,True
+5,200.2,Ahead of the curve,2,Idiomatic Expression,More advanced than current trends; at the cutting edge.,,The company had been ahead of the curve on digital payments for years.,,,,,,,,,,3,False,,2025-06-12 14:08:15,True
+6,200.29999999999998,Break out,3,Phrasal Verb,To escape from a place; to start suddenly.,,An example sentence using Break out in context.,,,,,,,,,,0,True,,2025-07-16 14:08:15,True
+7,4.0,Strengthen,1,Transitive Verb,To make something stronger or more secure.,,,,,,,Bengali translation of Strengthen,,,,,0,False,,2026-04-13 14:08:15,True
+8,200.39999999999998,Cut to the chase,2,Idiomatic Expression,To get to the most important part of something without delay.,,,,,,,Bengali translation of Cut to the chase,,,,,3,False,,2026-02-05 14:08:15,True
+9,200.49999999999997,Suited to,3,Appropriate Preposition,The meaning or usage of Suited to.,,,,,,,Bengali translation of Suited to,,,,,0,False,,2025-12-25 14:08:15,True
+10,4.0,Strengthen,1,Transitive Verb,,,Regular exercise will strengthen both your body and your resolve.,,,,,Bengali translation of Strengthen,,,,,0,False,,2025-08-30 14:08:15,True
+11,200.59999999999997,Stand firm,2,Idiomatic Expression,,,An example sentence using Stand firm in context.,,,,,Bengali translation of Stand firm,,,,,0,False,,2025-12-13 14:08:15,True
+12,200.69999999999996,Look up,3,Phrasal Verb,,,Look up the word if you are unsure of its meaning.,She promised to look him up the next time she was in the city.,,,,Bengali translation of Look up,,,,,0,False,,2026-03-01 14:08:15,True
+13,4.0,Strengthen,1,Transitive Verb,To make something stronger or more secure.,,,,,,,,,,,,0,False,,2025-11-12 14:08:15,True
+14,200.79999999999995,Mundane preoccupations,2,Idiomatic Expression,Concerns and worries of ordinary everyday life.,,,,,,,,,,,,2,False,,2025-07-15 14:08:15,True
+15,200.89999999999995,Call off,3,Phrasal Verb,To cancel an event or arrangement that had been planned.,,,,,,,,,,,,0,False,,2026-03-25 14:08:15,True
+16,4.0,Strengthen,1,Transitive Verb,,,Regular exercise will strengthen both your body and your resolve.,,,,,,,,,,0,True,,2025-05-27 14:08:15,True
+17,200.99999999999994,Read the riot act,2,Idiomatic Expression,,,She read the riot act to the team after the third consecutive failure.,,,,,,,,,,3,False,,2025-08-20 14:08:15,True
+18,201.09999999999994,Acquitted of,3,Appropriate Preposition,,,She was acquitted of all charges and walked free.,,,,,,,,,,2,False,,2025-04-16 14:08:15,True
+19,4.0,Strengthen,1,Transitive Verb,,,,,,,,Bengali translation of Strengthen,,,,,0,False,,2025-06-03 14:08:15,True
+20,201.19999999999993,Take the plunge,2,Idiomatic Expression,,,,,,,,Bengali translation of Take the plunge,,,,,3,True,,2025-12-30 14:08:15,True
+21,201.29999999999993,Give in,3,Phrasal Verb,,,,,,,,Bengali translation of Give in,,,,,0,False,,2025-09-27 14:08:15,True
+22,2.0,Relegation,1,Common Noun,The action of assigning an inferior rank or position to someone.,,An example sentence using Relegation in context.,,,,,Bengali translation of Relegation,,,,,2,False,,2025-06-19 14:08:15,True
+23,34.0,Beat around the bush,2,Idiomatic Expression,To avoid coming to the main point of what one is saying.,,An example sentence using Beat around the bush in context.,,,,,Bengali translation of Beat around the bush,,,,,0,False,,2026-03-07 14:08:15,True
+24,36.0,Come across,3,Phrasal Verb,The meaning or usage of Come across.,,An example sentence using Come across in context.,,,,,Bengali translation of Come across,,,,,0,False,,2026-03-10 14:08:15,True
+25,2.0,Relegation,1,Common Noun,The action of assigning an inferior rank or position to someone.,,An example sentence using Relegation in context.,,,,,,,,,,2,True,,2025-07-04 14:08:15,True
+26,34.0,Beat around the bush,2,Idiomatic Expression,To avoid coming to the main point of what one is saying.,,An example sentence using Beat around the bush in context.,,,,,,,,,,0,False,,2025-05-15 14:08:15,True
+27,36.0,Come across,3,Phrasal Verb,The meaning or usage of Come across.,,An example sentence using Come across in context.,,,,,,,,,,0,True,,2025-12-09 14:08:15,True
+28,2.0,Relegation,1,Common Noun,The action of assigning an inferior rank or position to someone.,,,,,,,Bengali translation of Relegation,,,,,2,False,,2025-05-12 14:08:15,True
+29,34.0,Beat around the bush,2,Idiomatic Expression,To avoid coming to the main point of what one is saying.,,,,,,,Bengali translation of Beat around the bush,,,,,0,False,,2026-01-29 14:08:15,True
+30,36.0,Come across,3,Phrasal Verb,The meaning or usage of Come across.,,,,,,,Bengali translation of Come across,,,,,0,False,,2025-07-09 14:08:15,True
+31,2.0,Relegation,1,Common Noun,,,An example sentence using Relegation in context.,,,,,Bengali translation of Relegation,,,,,2,False,,2025-11-20 14:08:15,True
+32,34.0,Beat around the bush,2,Idiomatic Expression,,,An example sentence using Beat around the bush in context.,,,,,Bengali translation of Beat around the bush,,,,,0,True,,2026-03-04 14:08:15,True
+33,36.0,Come across,3,Phrasal Verb,,,An example sentence using Come across in context.,,,,,Bengali translation of Come across,,,,,0,True,,2025-06-26 14:08:15,True
+34,2.0,Relegation,1,Common Noun,The action of assigning an inferior rank or position to someone.,,,,,,,,,,,,2,False,,2025-04-16 14:08:15,True
+35,34.0,Beat around the bush,2,Idiomatic Expression,To avoid coming to the main point of what one is saying.,,,,,,,,,,,,0,True,,2026-01-08 14:08:15,True
+36,36.0,Come across,3,Phrasal Verb,The meaning or usage of Come across.,,,,,,,,,,,,0,False,,2026-04-06 14:08:15,True
+37,2.0,Relegation,1,Common Noun,,,An example sentence using Relegation in context.,,,,,,,,,,2,False,,2025-09-04 14:08:15,True
+38,34.0,Beat around the bush,2,Idiomatic Expression,,,An example sentence using Beat around the bush in context.,,,,,,,,,,0,True,,2025-08-15 14:08:15,True
+39,36.0,Come across,3,Phrasal Verb,,,An example sentence using Come across in context.,,,,,,,,,,0,False,,2026-02-05 14:08:15,True
+40,2.0,Relegation,1,Common Noun,,,,,,,,Bengali translation of Relegation,,,,,2,True,,2026-03-21 14:08:15,True
+41,34.0,Beat around the bush,2,Idiomatic Expression,,,,,,,,Bengali translation of Beat around the bush,,,,,0,False,,2026-01-01 14:08:15,True
+42,36.0,Come across,3,Phrasal Verb,,,,,,,,Bengali translation of Come across,,,,,0,False,,2025-10-02 14:08:15,True
+43,1.0,Proclivity,1,Common Noun,A natural tendency or inclination towards something.,,His proclivity for exaggeration made it hard to trust him.,,,,,কিছু করার/হওয়ার/ঘটার সাধারণ প্রবনতা,,,,,0,True,,2026-03-15 14:08:15,True
+44,201.39999999999992,Break new ground,2,Idiomatic Expression,To do something innovative or pioneering.,,An example sentence using Break new ground in context.,,,,,Bengali translation of Break new ground,,,,,0,False,,2025-11-07 14:08:15,True
+45,201.49999999999991,Immune to,3,Appropriate Preposition,The meaning or usage of Immune to.,,An example sentence using Immune to in context.,,,,,Bengali translation of Immune to,,,,,0,False,,2025-06-21 14:08:15,True
+46,1.0,Proclivity,1,Common Noun,A natural tendency or inclination towards something.,,His proclivity for exaggeration made it hard to trust him.,,,,,,,,,,0,False,,2025-11-18 14:08:15,True
+47,201.5999999999999,Beat around the bush,2,Idiomatic Expression,To avoid coming to the main point of what one is saying.,,An example sentence using Beat around the bush in context.,,,,,,,,,,0,False,,2025-09-22 14:08:15,True
+48,201.6999999999999,Look into,3,Phrasal Verb,To investigate or examine something.,,The committee agreed to look into the matter before the next session.,,,,,,,,,,0,False,,2026-01-14 14:08:15,True
+49,1.0,Proclivity,1,Common Noun,A natural tendency or inclination towards something.,,,,,,,কিছু করার/হওয়ার/ঘটার সাধারণ প্রবনতা,,,,,0,False,,2025-05-31 14:08:15,True
+50,201.7999999999999,Stand firm,2,Idiomatic Expression,To refuse to change one's position or be moved by pressure.,,,,,,,Bengali translation of Stand firm,,,,,0,False,,2025-08-08 14:08:15,True
+51,201.8999999999999,Come across,3,Phrasal Verb,The meaning or usage of Come across.,,,,,,,Bengali translation of Come across,,,,,0,True,,2026-01-14 14:08:15,True
+52,1.0,Proclivity,1,Common Noun,,,His proclivity for exaggeration made it hard to trust him.,,,,,কিছু করার/হওয়ার/ঘটার সাধারণ প্রবনতা,,,,,0,False,,2025-08-29 14:08:15,True
+53,201.9999999999999,Take the plunge,2,Idiomatic Expression,,,An example sentence using Take the plunge in context.,,,,,Bengali translation of Take the plunge,,,,,3,False,,2025-06-05 14:08:15,True
+54,202.09999999999988,Back down,3,Phrasal Verb,,,An example sentence using Back down in context.,,,,,Bengali translation of Back down,,,,,3,False,,2026-04-13 14:08:15,True
+55,1.0,Proclivity,1,Common Noun,A natural tendency or inclination towards something.,,,,,,,,,,,,0,False,,2025-11-07 14:08:15,True
+56,202.19999999999987,Go through the motions,2,Idiomatic Expression,To do something without real effort or interest; to perform mechanically.,,,,,,,,,,,,3,True,,2025-10-30 14:08:15,True
+57,202.29999999999987,Acquitted of,3,Appropriate Preposition,The correct preposition following 'acquitted'.,,,,,,,,,,,,2,False,,2026-02-14 14:08:15,True
+58,1.0,Proclivity,1,Common Noun,,,His proclivity for exaggeration made it hard to trust him.,,,,,,,,,,0,False,,2026-03-22 14:08:15,True
+59,202.39999999999986,Act promptly,2,Idiomatic Expression,,,An example sentence using Act promptly in context.,,,,,,,,,,0,False,,2026-03-22 14:08:15,True
+60,202.49999999999986,Give up,3,Phrasal Verb,,,An example sentence using Give up in context.,,,,,,,,,,0,False,,2026-02-14 14:08:15,True
+61,1.0,Proclivity,1,Common Noun,,,,,,,,কিছু করার/হওয়ার/ঘটার সাধারণ প্রবনতা,,,,,0,False,,2026-03-26 14:08:15,True
+62,202.59999999999985,Mundane preoccupations,2,Idiomatic Expression,,,,,,,,Bengali translation of Mundane preoccupations,,,,,2,False,,2025-12-27 14:08:15,True
+63,202.69999999999985,Qualified for,3,Appropriate Preposition,,,,,,,,Bengali translation of Qualified for,,,,,0,False,,2025-08-29 14:08:15,True
+64,1.1,Disposition,1,Common Noun,A person's inherent qualities of mind and character; a tendency.,,Her disposition towards caution made her a reliable rather than a bold leader.,,,,,Bengali translation of Disposition,,,,,0,False,,2025-09-30 14:08:15,True
+65,202.79999999999984,Drag one's feet,2,Idiomatic Expression,To act slowly or reluctantly; to delay doing something.,,He had been dragging his feet on the application for months.,,,,,Bengali translation of Drag one's feet,,,,,3,False,,2025-05-02 14:08:15,True
+66,202.89999999999984,Break out,3,Phrasal Verb,To escape from a place; to start suddenly.,,An example sentence using Break out in context.,,,,,Bengali translation of Break out,,,,,0,False,,2025-10-20 14:08:15,True
+67,1.1,Disposition,1,Common Noun,A person's inherent qualities of mind and character; a tendency.,,Her disposition towards caution made her a reliable rather than a bold leader.,,,,,,,,,,0,False,,2025-10-27 14:08:15,True
+68,202.99999999999983,Read the riot act,2,Idiomatic Expression,To firmly warn someone that their behaviour is unacceptable.,,She read the riot act to the team after the third consecutive failure.,,,,,,,,,,3,False,,2025-11-28 14:08:15,True
+69,203.09999999999982,Back down,3,Phrasal Verb,To withdraw a claim or position; to concede.,,An example sentence using Back down in context.,,,,,,,,,,3,True,,2025-07-10 14:08:15,True
+70,1.1,Disposition,1,Common Noun,A person's inherent qualities of mind and character; a tendency.,,,,,,,Bengali translation of Disposition,,,,,0,False,,2025-08-24 14:08:15,True
+71,203.19999999999982,Go through the motions,2,Idiomatic Expression,To do something without real effort or interest; to perform mechanically.,,,,,,,Bengali translation of Go through the motions,,,,,3,False,,2025-05-22 14:08:15,True
+72,203.2999999999998,Take up,3,Phrasal Verb,To begin a new hobby or activity.,To accept an offer or challenge.,,,,,,Bengali translation of Take up,,,,,0,True,,2025-08-31 14:08:15,True
+73,1.1,Disposition,1,Common Noun,,,Her disposition towards caution made her a reliable rather than a bold leader.,,,,,Bengali translation of Disposition,,,,,0,False,,2025-06-02 14:08:15,True
+74,203.3999999999998,Take the plunge,2,Idiomatic Expression,,,An example sentence using Take the plunge in context.,,,,,Bengali translation of Take the plunge,,,,,3,False,,2025-05-04 14:08:15,True
+75,203.4999999999998,Immune to,3,Appropriate Preposition,,,An example sentence using Immune to in context.,,,,,Bengali translation of Immune to,,,,,0,True,,2025-05-19 14:08:15,True
+76,1.1,Disposition,1,Common Noun,A person's inherent qualities of mind and character; a tendency.,,,,,,,,,,,,0,False,,2025-05-28 14:08:15,True
+77,203.5999999999998,Sit on the fence,2,Idiomatic Expression,The meaning or usage of Sit on the fence.,,,,,,,,,,,,3,True,,2025-08-08 14:08:15,True
+78,203.6999999999998,Look down on,3,Phrasal Verb,The meaning or usage of Look down on.,,,,,,,,,,,,0,True,,2026-04-03 14:08:15,True
+79,1.1,Disposition,1,Common Noun,,,Her disposition towards caution made her a reliable rather than a bold leader.,,,,,,,,,,0,False,,2025-12-18 14:08:15,True
+80,203.79999999999978,Stand firm,2,Idiomatic Expression,,,An example sentence using Stand firm in context.,,,,,,,,,,0,False,,2025-11-02 14:08:15,True
+81,203.89999999999978,Qualified for,3,Appropriate Preposition,,,He was fully qualified for the role but was passed over anyway.,,,,,,,,,,0,False,,2025-09-27 14:08:15,True
+82,1.1,Disposition,1,Common Noun,,,,,,,,Bengali translation of Disposition,,,,,0,False,,2025-04-30 14:08:15,True
+83,203.99999999999977,Stand firm,2,Idiomatic Expression,,,,,,,,Bengali translation of Stand firm,,,,,0,False,,2025-07-31 14:08:15,True
+84,204.09999999999977,Averse to,3,Appropriate Preposition,,,,,,,,Bengali translation of Averse to,,,,,1,False,,2025-09-24 14:08:15,True
+85,-2.0,Promotion,1,Common Noun,The act of raising someone to a higher position or rank.,,An example sentence using Promotion in context.,,,,,Bengali translation of Promotion,,,,,0,False,,2026-02-14 14:08:15,True
+86,-34.0,Get straight to the point,2,Idiomatic Expression,To say exactly what one means without unnecessary preamble.,,"She got straight to the point, which everyone in the room appreciated.",,,,,Bengali translation of Get straight to the point,,,,,0,False,,2025-10-06 14:08:15,True
+87,39.0,Obsessed with,3,Appropriate Preposition,The meaning or usage of Obsessed with.,,An example sentence using Obsessed with in context.,,,,,Bengali translation of Obsessed with,,,,,0,False,,2025-09-02 14:08:15,True
+88,-2.0,Promotion,1,Common Noun,The act of raising someone to a higher position or rank.,,An example sentence using Promotion in context.,,,,,,,,,,0,False,,2025-08-25 14:08:15,True
+89,-34.0,Get straight to the point,2,Idiomatic Expression,To say exactly what one means without unnecessary preamble.,,"She got straight to the point, which everyone in the room appreciated.",,,,,,,,,,0,False,,2025-08-01 14:08:15,True
+90,39.0,Obsessed with,3,Appropriate Preposition,The meaning or usage of Obsessed with.,,An example sentence using Obsessed with in context.,,,,,,,,,,0,True,,2025-05-14 14:08:15,True
+91,-2.0,Promotion,1,Common Noun,The act of raising someone to a higher position or rank.,,,,,,,Bengali translation of Promotion,,,,,0,False,,2025-09-16 14:08:15,True
+92,-34.0,Get straight to the point,2,Idiomatic Expression,To say exactly what one means without unnecessary preamble.,,,,,,,Bengali translation of Get straight to the point,,,,,0,False,,2025-11-04 14:08:15,True
+93,39.0,Obsessed with,3,Appropriate Preposition,The meaning or usage of Obsessed with.,,,,,,,Bengali translation of Obsessed with,,,,,0,False,,2025-11-15 14:08:15,True
+94,-2.0,Promotion,1,Common Noun,,,An example sentence using Promotion in context.,,,,,Bengali translation of Promotion,,,,,0,False,,2026-01-29 14:08:15,True
+95,-34.0,Get straight to the point,2,Idiomatic Expression,,,"She got straight to the point, which everyone in the room appreciated.",,,,,Bengali translation of Get straight to the point,,,,,0,True,,2025-11-06 14:08:15,True
+96,39.0,Obsessed with,3,Appropriate Preposition,,,An example sentence using Obsessed with in context.,,,,,Bengali translation of Obsessed with,,,,,0,False,,2025-11-26 14:08:15,True
+97,-2.0,Promotion,1,Common Noun,The act of raising someone to a higher position or rank.,,,,,,,,,,,,0,False,,2025-11-02 14:08:15,True
+98,-34.0,Get straight to the point,2,Idiomatic Expression,To say exactly what one means without unnecessary preamble.,,,,,,,,,,,,0,False,,2025-10-25 14:08:15,True
+99,39.0,Obsessed with,3,Appropriate Preposition,The meaning or usage of Obsessed with.,,,,,,,,,,,,0,False,,2025-05-08 14:08:15,True
+100,-2.0,Promotion,1,Common Noun,,,An example sentence using Promotion in context.,,,,,,,,,,0,False,,2025-12-01 14:08:15,True
+101,-34.0,Get straight to the point,2,Idiomatic Expression,,,"She got straight to the point, which everyone in the room appreciated.",,,,,,,,,,0,False,,2025-07-07 14:08:15,True
+102,39.0,Obsessed with,3,Appropriate Preposition,,,An example sentence using Obsessed with in context.,,,,,,,,,,0,True,,2026-01-22 14:08:15,True
+103,-2.0,Promotion,1,Common Noun,,,,,,,,Bengali translation of Promotion,,,,,0,False,,2025-10-04 14:08:15,True
+104,-34.0,Get straight to the point,2,Idiomatic Expression,,,,,,,,Bengali translation of Get straight to the point,,,,,0,False,,2026-01-16 14:08:15,True
+105,39.0,Obsessed with,3,Appropriate Preposition,,,,,,,,Bengali translation of Obsessed with,,,,,0,False,,2025-11-09 14:08:15,True
+106,104.0,Placate,1,Transitive Verb,To reduce the anger or displeasure of someone; to appease.,,Small concessions were enough to placate the more moderate critics.,,,,,রাগ বা ক্ষোভ প্রশমিত করা।,,,,,0,True,,2025-09-03 14:08:15,True
+107,204.19999999999976,Out of the ordinary,2,Idiomatic Expression,Different from what is usual or expected; remarkable.,,An example sentence using Out of the ordinary in context.,,,,,Bengali translation of Out of the ordinary,,,,,0,False,,2026-01-27 14:08:15,True
+108,214.19999999999976,Look down on,3,Phrasal Verb,The meaning or usage of Look down on.,,An example sentence using Look down on in context.,,,,,Bengali translation of Look down on,,,,,0,True,,2026-04-04 14:08:15,True
+109,104.0,Placate,1,Transitive Verb,To reduce the anger or displeasure of someone; to appease.,,Small concessions were enough to placate the more moderate critics.,,,,,,,,,,0,True,,2026-01-05 14:08:15,True
+110,224.19999999999976,Pull one's weight,2,Idiomatic Expression,The meaning or usage of Pull one's weight.,,An example sentence using Pull one's weight in context.,,,,,,,,,,0,False,,2025-12-27 14:08:15,True
+111,234.19999999999976,Immune to,3,Appropriate Preposition,The meaning or usage of Immune to.,,An example sentence using Immune to in context.,,,,,,,,,,0,False,,2025-08-23 14:08:15,True
+112,104.0,Placate,1,Transitive Verb,To reduce the anger or displeasure of someone; to appease.,,,,,,,রাগ বা ক্ষোভ প্রশমিত করা।,,,,,0,False,,2025-12-20 14:08:15,True
+113,244.19999999999976,Catch red-handed,2,Idiomatic Expression,To catch someone in the very act of doing something wrong.,,,,,,,Bengali translation of Catch red-handed,,,,,3,False,,2026-01-30 14:08:15,True
+114,254.19999999999976,Give in,3,Phrasal Verb,The meaning or usage of Give in.,,,,,,,Bengali translation of Give in,,,,,0,True,,2025-07-06 14:08:15,True
+115,104.0,Placate,1,Transitive Verb,,,Small concessions were enough to placate the more moderate critics.,,,,,রাগ বা ক্ষোভ প্রশমিত করা।,,,,,0,False,,2025-04-28 14:08:16,True
+116,264.19999999999976,Break new ground,2,Idiomatic Expression,,,An example sentence using Break new ground in context.,,,,,Bengali translation of Break new ground,,,,,0,False,,2025-07-27 14:08:16,True
+117,274.19999999999976,Knuckle down,3,Phrasal Verb,,,An example sentence using Knuckle down in context.,,,,,Bengali translation of Knuckle down,,,,,3,False,,2025-05-03 14:08:16,True
+118,104.0,Placate,1,Transitive Verb,To reduce the anger or displeasure of someone; to appease.,,,,,,,,,,,,0,False,,2025-05-12 14:08:16,True
+119,284.19999999999976,Run-of-the-mill,2,Idiomatic Expression,Ordinary; lacking any special or distinctive quality.,,,,,,,,,,,,3,True,,2026-03-09 14:08:16,True
+120,294.19999999999976,Give away,3,Phrasal Verb,The meaning or usage of Give away.,,,,,,,,,,,,0,False,,2025-07-06 14:08:16,True
+121,104.0,Placate,1,Transitive Verb,,,Small concessions were enough to placate the more moderate critics.,,,,,,,,,,0,True,,2025-04-14 14:08:16,True
+122,304.19999999999976,Break new ground,2,Idiomatic Expression,,,An example sentence using Break new ground in context.,,,,,,,,,,0,False,,2026-04-10 14:08:16,True
+123,314.19999999999976,Absorbed in,3,Appropriate Preposition,,,An example sentence using Absorbed in in context.,,,,,,,,,,0,False,,2026-01-23 14:08:16,True
+124,104.0,Placate,1,Transitive Verb,,,,,,,,রাগ বা ক্ষোভ প্রশমিত করা।,,,,,0,False,,2025-08-30 14:08:16,True
+125,324.19999999999976,Act promptly,2,Idiomatic Expression,,,,,,,,Bengali translation of Act promptly,,,,,0,False,,2026-03-27 14:08:16,True
+126,334.19999999999976,Bring about,3,Phrasal Verb,,,,,,,,Bengali translation of Bring about,,,,,0,False,,2025-10-19 14:08:16,True
+127,3.1,Fondle,1,Transitive Verb,"To touch, toy and explore something clumsily with hands",,Did you expect a 5yr old to not fondle the cheeks of her baby brother???,,,,,"অলস, উদ্দেশ্যহীনভাবে হাত দিয়ে কিছু ঘাটা",,,,,6,True,,2026-02-11 14:08:16,True
+128,344.19999999999976,Get straight to the point,2,Idiomatic Expression,To say exactly what one means without unnecessary preamble.,,"She got straight to the point, which everyone in the room appreciated.",,,,,Bengali translation of Get straight to the point,,,,,0,False,,2025-08-03 14:08:16,True
+129,344.2999999999998,Knuckle down,3,Phrasal Verb,The meaning or usage of Knuckle down.,,An example sentence using Knuckle down in context.,,,,,Bengali translation of Knuckle down,,,,,3,False,,2026-04-09 14:08:16,True
+130,3.1,Fondle,1,Transitive Verb,"To touch, toy and explore something clumsily with hands",,Did you expect a 5yr old to not fondle the cheeks of her baby brother???,,,,,,,,,,5,False,,2026-02-10 14:08:16,True
+131,344.3999999999998,Hold one's ground,2,Idiomatic Expression,The meaning or usage of Hold one's ground.,,An example sentence using Hold one's ground in context.,,,,,,,,,,0,False,,2025-04-22 14:08:16,True
+132,344.49999999999983,Catch up,3,Phrasal Verb,The meaning or usage of Catch up.,,An example sentence using Catch up in context.,,,,,,,,,,0,False,,2025-05-30 14:08:16,True
+133,3.1,Fondle,1,Transitive Verb,"To touch, toy and explore something clumsily with hands",,,,,,,"অলস, উদ্দেশ্যহীনভাবে হাত দিয়ে কিছু ঘাটা",,,,,6,False,,2026-02-06 14:08:16,True
+134,344.59999999999985,Ahead of the curve,2,Idiomatic Expression,More advanced than current trends; at the cutting edge.,,,,,,,Bengali translation of Ahead of the curve,,,,,3,False,,2026-01-04 14:08:16,True
+135,344.6999999999999,Look up,3,Phrasal Verb,To search for information in a reference source.,To visit someone after a period of absence.,,,,,,Bengali translation of Look up,,,,,0,True,,2025-12-26 14:08:16,True
+136,3.1,Fondle,1,Transitive Verb,,,Did you expect a 5yr old to not fondle the cheeks of her baby brother???,,,,,"অলস, উদ্দেশ্যহীনভাবে হাত দিয়ে কিছু ঘাটা",,,,,4,False,,2025-04-26 14:08:16,True
+137,344.7999999999999,Pull one's weight,2,Idiomatic Expression,,,An example sentence using Pull one's weight in context.,,,,,Bengali translation of Pull one's weight,,,,,0,True,,2025-11-09 14:08:16,True
+138,344.8999999999999,Break down,3,Phrasal Verb,,,The car broke down just ten minutes into the journey.,We need to break down the costs before we can decide.,,,,Bengali translation of Break down,,,,,0,False,,2025-12-14 14:08:16,True
+139,3.1,Fondle,1,Transitive Verb,"To touch, toy and explore something clumsily with hands",,,,,,,,,,,,0,False,,2025-10-25 14:08:16,True
+140,344.99999999999994,Catch red-handed,2,Idiomatic Expression,To catch someone in the very act of doing something wrong.,,,,,,,,,,,,3,False,,2025-09-13 14:08:16,True
+141,345.09999999999997,Turn over,3,Phrasal Verb,To hand something to someone in authority.,To start an engine.,,,,,,,,,,,0,False,,2025-05-15 14:08:16,True
+142,3.1,Fondle,1,Transitive Verb,,,Did you expect a 5yr old to not fondle the cheeks of her baby brother???,,,,,,,,,,3,False,,2026-03-17 14:08:16,True
+143,345.2,Act impulsively,2,Idiomatic Expression,,,He acted impulsively and regretted it within hours.,,,,,,,,,,0,False,,2025-04-13 14:08:16,True
+144,345.3,Adept at,3,Appropriate Preposition,,,She was adept at defusing tension with a well-timed remark.,,,,,,,,,,0,True,,2026-02-18 14:08:16,True
+145,3.1,Fondle,1,Transitive Verb,,,,,,,,"অলস, উদ্দেশ্যহীনভাবে হাত দিয়ে কিছু ঘাটা",,,,,5,False,,2025-05-15 14:08:16,True
+146,345.40000000000003,Act promptly,2,Idiomatic Expression,,,,,,,,Bengali translation of Act promptly,,,,,0,False,,2025-10-12 14:08:16,True
+147,345.50000000000006,Catch up,3,Phrasal Verb,,,,,,,,Bengali translation of Catch up,,,,,0,False,,2026-01-07 14:08:16,True
+148,-28.0,Inconspicuous,1,Adjective,Not clearly visible or attracting attention; not prominent.,,An example sentence using Inconspicuous in context.,,,,,Bengali translation of Inconspicuous,,,,,0,False,,2025-09-08 14:08:16,True
+149,-53.0,Go through the motions,2,Idiomatic Expression,To do something without real effort or interest; to perform mechanically.,,"By the third year, he was just going through the motions.",,,,,Bengali translation of Go through the motions,,,,,3,False,,2025-06-18 14:08:16,True
+150,-36.0,Seek out,3,Phrasal Verb,The meaning or usage of Seek out.,,An example sentence using Seek out in context.,,,,,Bengali translation of Seek out,,,,,0,False,,2025-11-08 14:08:16,True
+151,-28.0,Inconspicuous,1,Adjective,Not clearly visible or attracting attention; not prominent.,,An example sentence using Inconspicuous in context.,,,,,,,,,,0,False,,2025-05-12 14:08:16,True
+152,-53.0,Go through the motions,2,Idiomatic Expression,To do something without real effort or interest; to perform mechanically.,,"By the third year, he was just going through the motions.",,,,,,,,,,3,False,,2025-11-01 14:08:16,True
+153,-36.0,Seek out,3,Phrasal Verb,The meaning or usage of Seek out.,,An example sentence using Seek out in context.,,,,,,,,,,0,False,,2026-02-12 14:08:16,True
+154,-28.0,Inconspicuous,1,Adjective,Not clearly visible or attracting attention; not prominent.,,,,,,,Bengali translation of Inconspicuous,,,,,0,False,,2025-12-30 14:08:16,True
+155,-53.0,Go through the motions,2,Idiomatic Expression,To do something without real effort or interest; to perform mechanically.,,,,,,,Bengali translation of Go through the motions,,,,,3,False,,2025-06-22 14:08:16,True
+156,-36.0,Seek out,3,Phrasal Verb,The meaning or usage of Seek out.,,,,,,,Bengali translation of Seek out,,,,,0,False,,2025-09-25 14:08:16,True
+157,-28.0,Inconspicuous,1,Adjective,,,An example sentence using Inconspicuous in context.,,,,,Bengali translation of Inconspicuous,,,,,0,True,,2025-07-22 14:08:16,True
+158,-53.0,Go through the motions,2,Idiomatic Expression,,,"By the third year, he was just going through the motions.",,,,,Bengali translation of Go through the motions,,,,,3,False,,2025-10-12 14:08:16,True
+159,-36.0,Seek out,3,Phrasal Verb,,,An example sentence using Seek out in context.,,,,,Bengali translation of Seek out,,,,,0,False,,2025-07-13 14:08:16,True
+160,-28.0,Inconspicuous,1,Adjective,Not clearly visible or attracting attention; not prominent.,,,,,,,,,,,,0,True,,2025-08-10 14:08:16,True
+161,-53.0,Go through the motions,2,Idiomatic Expression,To do something without real effort or interest; to perform mechanically.,,,,,,,,,,,,3,False,,2026-02-17 14:08:16,True
+162,-36.0,Seek out,3,Phrasal Verb,The meaning or usage of Seek out.,,,,,,,,,,,,0,False,,2025-09-27 14:08:16,True
+163,-28.0,Inconspicuous,1,Adjective,,,An example sentence using Inconspicuous in context.,,,,,,,,,,0,False,,2026-03-01 14:08:16,True
+164,-53.0,Go through the motions,2,Idiomatic Expression,,,"By the third year, he was just going through the motions.",,,,,,,,,,3,True,,2025-07-08 14:08:16,True
+165,-36.0,Seek out,3,Phrasal Verb,,,An example sentence using Seek out in context.,,,,,,,,,,0,False,,2025-11-24 14:08:16,True
+166,-28.0,Inconspicuous,1,Adjective,,,,,,,,Bengali translation of Inconspicuous,,,,,0,False,,2025-09-13 14:08:16,True
+167,-53.0,Go through the motions,2,Idiomatic Expression,,,,,,,,Bengali translation of Go through the motions,,,,,3,False,,2025-11-16 14:08:16,True
+168,-36.0,Seek out,3,Phrasal Verb,,,,,,,,Bengali translation of Seek out,,,,,0,False,,2025-10-22 14:08:16,True
+169,4.0,Fortify,1,Transitive Verb,To make a place or structure stronger and more resistant.,,They worked through the night to fortify the defences.,,,,,Bengali translation of Fortify,,,,,1,False,,2025-05-26 14:08:16,True
+170,345.6000000000001,Behind the times,2,Idiomatic Expression,Old-fashioned; not keeping up with modern ideas or developments.,,An example sentence using Behind the times in context.,,,,,Bengali translation of Behind the times,,,,,3,False,,2025-10-30 14:08:16,True
+171,345.7000000000001,Look up,3,Phrasal Verb,To search for information in a reference source.,To visit someone after a period of absence.,Look up the word if you are unsure of its meaning.,She promised to look him up the next time she was in the city.,,,,Bengali translation of Look up,,,,,0,False,,2025-12-17 14:08:16,True
+172,4.0,Fortify,1,Transitive Verb,To make a place or structure stronger and more resistant.,,They worked through the night to fortify the defences.,,,,,,,,,,1,False,,2026-03-04 14:08:16,True
+173,345.8000000000001,Under the radar,2,Idiomatic Expression,Without being noticed or detected by others.,,The initiative had been operating under the radar for almost a year.,,,,,,,,,,3,True,,2025-06-21 14:08:16,True
+174,345.90000000000015,Give up,3,Phrasal Verb,The meaning or usage of Give up.,,An example sentence using Give up in context.,,,,,,,,,,0,False,,2026-04-12 14:08:16,True
+175,4.0,Fortify,1,Transitive Verb,To make a place or structure stronger and more resistant.,,,,,,,Bengali translation of Fortify,,,,,1,True,,2025-07-10 14:08:16,True
+176,346.00000000000017,Get straight to the point,2,Idiomatic Expression,To say exactly what one means without unnecessary preamble.,,,,,,,Bengali translation of Get straight to the point,,,,,0,False,,2025-05-31 14:08:16,True
+177,346.1000000000002,Charged with,3,Appropriate Preposition,The correct preposition following 'charged' in a legal context.,,,,,,,Bengali translation of Charged with,,,,,2,False,,2025-11-18 14:08:16,True
+178,4.0,Fortify,1,Transitive Verb,,,They worked through the night to fortify the defences.,,,,,Bengali translation of Fortify,,,,,1,True,,2025-11-03 14:08:16,True
+179,346.2000000000002,Pull one's weight,2,Idiomatic Expression,,,An example sentence using Pull one's weight in context.,,,,,Bengali translation of Pull one's weight,,,,,0,False,,2025-05-01 14:08:16,True
+180,346.30000000000024,Hold on,3,Phrasal Verb,,,An example sentence using Hold on in context.,,,,,Bengali translation of Hold on,,,,,3,True,,2025-10-17 14:08:16,True
+181,4.0,Fortify,1,Transitive Verb,To make a place or structure stronger and more resistant.,,,,,,,,,,,,1,False,,2025-06-26 14:08:16,True
+182,346.40000000000026,Talk in circles,2,Idiomatic Expression,To keep discussing something without making progress or reaching a conclusion.,,,,,,,,,,,,3,True,,2025-05-15 14:08:16,True
+183,346.5000000000003,Look up to,3,Phrasal Verb,To admire and respect someone.,,,,,,,,,,,,0,True,,2026-03-18 14:08:16,True
+184,4.0,Fortify,1,Transitive Verb,,,They worked through the night to fortify the defences.,,,,,,,,,,1,False,,2025-12-29 14:08:16,True
+185,346.6000000000003,Play it safe,2,Idiomatic Expression,,,An example sentence using Play it safe in context.,,,,,,,,,,0,False,,2025-04-16 14:08:16,True
+186,346.70000000000033,Catch up,3,Phrasal Verb,,,An example sentence using Catch up in context.,,,,,,,,,,0,False,,2025-08-30 14:08:16,True
+187,4.0,Fortify,1,Transitive Verb,,,,,,,,Bengali translation of Fortify,,,,,1,False,,2026-02-20 14:08:16,True
+188,346.80000000000035,Mundane preoccupations,2,Idiomatic Expression,,,,,,,,Bengali translation of Mundane preoccupations,,,,,2,False,,2025-08-14 14:08:16,True
+189,346.9000000000004,Preoccupied with,3,Appropriate Preposition,,,,,,,,Bengali translation of Preoccupied with,,,,,0,False,,2026-02-05 14:08:16,True
+190,2.0,Demotion,1,Common Noun,A reduction in rank or status.,,The demotion came as a shock to everyone in the department.,,,,,Bengali translation of Demotion,,,,,0,True,,2026-03-30 14:08:16,True
+191,34.0,Talk in circles,2,Idiomatic Expression,To keep discussing something without making progress or reaching a conclusion.,,An example sentence using Talk in circles in context.,,,,,Bengali translation of Talk in circles,,,,,3,False,,2025-08-07 14:08:16,True
+192,36.0,Run into,3,Phrasal Verb,To meet someone unexpectedly.,To encounter a problem or obstacle.,I ran into my old professor at the conference.,The project ran into serious funding issues in the third quarter.,,,,Bengali translation of Run into,,,,,0,False,,2025-08-27 14:08:16,True
+193,2.0,Demotion,1,Common Noun,A reduction in rank or status.,,The demotion came as a shock to everyone in the department.,,,,,,,,,,0,False,,2025-04-25 14:08:16,True
+194,34.0,Talk in circles,2,Idiomatic Expression,To keep discussing something without making progress or reaching a conclusion.,,An example sentence using Talk in circles in context.,,,,,,,,,,3,False,,2025-08-06 14:08:16,True
+195,36.0,Run into,3,Phrasal Verb,To meet someone unexpectedly.,To encounter a problem or obstacle.,I ran into my old professor at the conference.,The project ran into serious funding issues in the third quarter.,,,,,,,,,0,False,,2025-05-11 14:08:16,True
+196,2.0,Demotion,1,Common Noun,A reduction in rank or status.,,,,,,,Bengali translation of Demotion,,,,,0,False,,2025-06-27 14:08:16,True
+197,34.0,Talk in circles,2,Idiomatic Expression,To keep discussing something without making progress or reaching a conclusion.,,,,,,,Bengali translation of Talk in circles,,,,,3,False,,2025-10-06 14:08:16,True
+198,36.0,Run into,3,Phrasal Verb,To meet someone unexpectedly.,To encounter a problem or obstacle.,,,,,,Bengali translation of Run into,,,,,0,False,,2025-12-07 14:08:16,True
+199,2.0,Demotion,1,Common Noun,,,The demotion came as a shock to everyone in the department.,,,,,Bengali translation of Demotion,,,,,0,False,,2025-05-31 14:08:16,True
+200,34.0,Talk in circles,2,Idiomatic Expression,,,An example sentence using Talk in circles in context.,,,,,Bengali translation of Talk in circles,,,,,3,False,,2025-04-13 14:08:16,True
+201,36.0,Run into,3,Phrasal Verb,,,I ran into my old professor at the conference.,The project ran into serious funding issues in the third quarter.,,,,Bengali translation of Run into,,,,,0,True,,2026-03-18 14:08:16,True
+202,2.0,Demotion,1,Common Noun,A reduction in rank or status.,,,,,,,,,,,,0,False,,2025-04-29 14:08:16,True
+203,34.0,Talk in circles,2,Idiomatic Expression,To keep discussing something without making progress or reaching a conclusion.,,,,,,,,,,,,3,False,,2025-11-26 14:08:16,True
+204,36.0,Run into,3,Phrasal Verb,To meet someone unexpectedly.,To encounter a problem or obstacle.,,,,,,,,,,,0,True,,2025-07-01 14:08:16,True
+205,2.0,Demotion,1,Common Noun,,,The demotion came as a shock to everyone in the department.,,,,,,,,,,0,True,,2025-10-28 14:08:16,True
+206,34.0,Talk in circles,2,Idiomatic Expression,,,An example sentence using Talk in circles in context.,,,,,,,,,,3,False,,2026-02-09 14:08:16,True
+207,36.0,Run into,3,Phrasal Verb,,,I ran into my old professor at the conference.,The project ran into serious funding issues in the third quarter.,,,,,,,,,0,False,,2025-06-10 14:08:16,True
+208,2.0,Demotion,1,Common Noun,,,,,,,,Bengali translation of Demotion,,,,,0,True,,2025-09-29 14:08:16,True
+209,34.0,Talk in circles,2,Idiomatic Expression,,,,,,,,Bengali translation of Talk in circles,,,,,3,False,,2026-03-24 14:08:16,True
+210,36.0,Run into,3,Phrasal Verb,,,,,,,,Bengali translation of Run into,,,,,0,False,,2025-12-18 14:08:16,True
+211,1.0,Tendency,1,Common Noun,An inclination towards a particular kind of thought or action.,,She had a tendency to overthink every decision.,,,,,ঝোঁক; কোনো নির্দিষ্ট দিকে স্বাভাবিকভাবে ঝুঁকে পড়ার প্রবণতা।,,,,,0,True,,2025-10-25 14:08:16,True
+212,347.0000000000004,Bite the bullet,2,Idiomatic Expression,The meaning or usage of Bite the bullet.,,An example sentence using Bite the bullet in context.,,,,,Bengali translation of Bite the bullet,,,,,3,True,,2025-07-01 14:08:16,True
+213,347.1000000000004,Catch up,3,Phrasal Verb,The meaning or usage of Catch up.,,An example sentence using Catch up in context.,,,,,Bengali translation of Catch up,,,,,0,False,,2025-08-10 14:08:16,True
+214,1.0,Tendency,1,Common Noun,An inclination towards a particular kind of thought or action.,,She had a tendency to overthink every decision.,,,,,,,,,,0,False,,2025-10-03 14:08:16,True
+215,347.20000000000044,In broad daylight,2,Idiomatic Expression,"Done openly and without concealment, during the day.",,An example sentence using In broad daylight in context.,,,,,,,,,,0,False,,2025-05-12 14:08:16,True
+216,347.30000000000047,Seek out,3,Phrasal Verb,The meaning or usage of Seek out.,,An example sentence using Seek out in context.,,,,,,,,,,0,False,,2025-07-21 14:08:16,True
+217,1.0,Tendency,1,Common Noun,An inclination towards a particular kind of thought or action.,,,,,,,ঝোঁক; কোনো নির্দিষ্ট দিকে স্বাভাবিকভাবে ঝুঁকে পড়ার প্রবণতা।,,,,,0,False,,2025-06-25 14:08:16,True
+218,347.4000000000005,Ahead of the curve,2,Idiomatic Expression,More advanced than current trends; at the cutting edge.,,,,,,,Bengali translation of Ahead of the curve,,,,,3,False,,2026-01-18 14:08:16,True
+219,347.5000000000005,Slack off,3,Phrasal Verb,To reduce one's level of effort; to become lazier.,,,,,,,Bengali translation of Slack off,,,,,3,True,,2025-08-26 14:08:16,True
+220,1.0,Tendency,1,Common Noun,,,She had a tendency to overthink every decision.,,,,,ঝোঁক; কোনো নির্দিষ্ট দিকে স্বাভাবিকভাবে ঝুঁকে পড়ার প্রবণতা।,,,,,0,True,,2025-04-14 14:08:16,True
+221,347.60000000000053,Cut to the chase,2,Idiomatic Expression,,,Cut to the chase â do we have the funding or not?,,,,,Bengali translation of Cut to the chase,,,,,3,False,,2025-12-13 14:08:16,True
+222,347.70000000000056,Buckle down,3,Phrasal Verb,,,The team buckled down after the manager's firm warning.,,,,,Bengali translation of Buckle down,,,,,3,False,,2025-12-23 14:08:16,True
+223,1.0,Tendency,1,Common Noun,An inclination towards a particular kind of thought or action.,,,,,,,,,,,,0,False,,2026-02-13 14:08:16,True
+224,347.8000000000006,Take to task,2,Idiomatic Expression,To reprimand or criticise someone for a fault or shortcoming.,,,,,,,,,,,,0,False,,2026-02-07 14:08:16,True
+225,347.9000000000006,Suited to,3,Appropriate Preposition,The meaning or usage of Suited to.,,,,,,,,,,,,0,True,,2025-10-05 14:08:16,True
+226,1.0,Tendency,1,Common Noun,,,She had a tendency to overthink every decision.,,,,,,,,,,0,True,,2025-04-15 14:08:16,True
+227,348.0000000000006,Pull one's weight,2,Idiomatic Expression,,,An example sentence using Pull one's weight in context.,,,,,,,,,,0,False,,2025-05-29 14:08:16,True
+228,348.10000000000065,Seek out,3,Phrasal Verb,,,An example sentence using Seek out in context.,,,,,,,,,,0,False,,2026-02-10 14:08:16,True
+229,1.0,Tendency,1,Common Noun,,,,,,,,ঝোঁক; কোনো নির্দিষ্ট দিকে স্বাভাবিকভাবে ঝুঁকে পড়ার প্রবণতা।,,,,,0,True,,2026-01-01 14:08:16,True
+230,348.20000000000067,Turn a blind eye,2,Idiomatic Expression,,,,,,,,Bengali translation of Turn a blind eye,,,,,0,False,,2026-02-14 14:08:16,True
+231,348.3000000000007,Set off,3,Phrasal Verb,,,,,,,,Bengali translation of Set off,,,,,0,False,,2025-11-11 14:08:16,True
+232,1.2,Bent,1,Common Noun,A natural talent or inclination towards something.,,He had a natural bent for mathematics from an early age.,,,,,Bengali translation of Bent,,,,,3,False,,2025-05-04 14:08:16,True
+233,348.4000000000007,Talk in circles,2,Idiomatic Expression,To keep discussing something without making progress or reaching a conclusion.,,An example sentence using Talk in circles in context.,,,,,Bengali translation of Talk in circles,,,,,3,False,,2025-07-28 14:08:16,True
+234,348.50000000000074,Look up,3,Phrasal Verb,To search for information in a reference source.,To visit someone after a period of absence.,Look up the word if you are unsure of its meaning.,She promised to look him up the next time she was in the city.,,,,Bengali translation of Look up,,,,,0,False,,2026-03-02 14:08:16,True
+235,1.2,Bent,1,Common Noun,A natural talent or inclination towards something.,,He had a natural bent for mathematics from an early age.,,,,,,,,,,3,False,,2026-02-28 14:08:16,True
+236,348.60000000000076,Stand firm,2,Idiomatic Expression,To refuse to change one's position or be moved by pressure.,,An example sentence using Stand firm in context.,,,,,,,,,,0,False,,2026-01-17 14:08:16,True
+237,348.7000000000008,Obsessed with,3,Appropriate Preposition,The meaning or usage of Obsessed with.,,An example sentence using Obsessed with in context.,,,,,,,,,,0,False,,2025-11-25 14:08:16,True
+238,1.2,Bent,1,Common Noun,A natural talent or inclination towards something.,,,,,,,Bengali translation of Bent,,,,,3,False,,2025-10-07 14:08:16,True
+239,348.8000000000008,Stand firm,2,Idiomatic Expression,To refuse to change one's position or be moved by pressure.,,,,,,,Bengali translation of Stand firm,,,,,0,True,,2025-07-07 14:08:16,True
+240,348.90000000000083,Bring about,3,Phrasal Verb,The meaning or usage of Bring about.,,,,,,,Bengali translation of Bring about,,,,,0,False,,2026-04-09 14:08:16,True
+241,1.2,Bent,1,Common Noun,,,He had a natural bent for mathematics from an early age.,,,,,Bengali translation of Bent,,,,,3,False,,2026-01-07 14:08:16,True
+242,349.00000000000085,Out of the ordinary,2,Idiomatic Expression,,,An example sentence using Out of the ordinary in context.,,,,,Bengali translation of Out of the ordinary,,,,,0,False,,2025-07-24 14:08:16,True
+243,349.1000000000009,Give away,3,Phrasal Verb,,,An example sentence using Give away in context.,,,,,Bengali translation of Give away,,,,,0,True,,2025-11-01 14:08:16,True
+244,1.2,Bent,1,Common Noun,A natural talent or inclination towards something.,,,,,,,,,,,,3,False,,2025-10-03 14:08:16,True
+245,349.2000000000009,Throw oneself into,2,Idiomatic Expression,To begin doing something with great enthusiasm and energy.,,,,,,,,,,,,0,False,,2026-03-31 14:08:16,True
+246,349.3000000000009,Knuckle down,3,Phrasal Verb,The meaning or usage of Knuckle down.,,,,,,,,,,,,3,False,,2026-02-07 14:08:16,True
+247,1.2,Bent,1,Common Noun,,,He had a natural bent for mathematics from an early age.,,,,,,,,,,3,True,,2026-03-28 14:08:16,True
+248,349.40000000000094,Cut corners,2,Idiomatic Expression,,,An example sentence using Cut corners in context.,,,,,,,,,,3,False,,2025-05-27 14:08:16,True
+249,349.50000000000097,Accuse of,3,Appropriate Preposition,,,He was accused of negligence by the investigating board.,,,,,,,,,,0,True,,2025-07-09 14:08:16,True
+250,1.2,Bent,1,Common Noun,,,,,,,,Bengali translation of Bent,,,,,3,False,,2026-01-11 14:08:16,True
+251,349.600000000001,Cut corners,2,Idiomatic Expression,,,,,,,,Bengali translation of Cut corners,,,,,3,False,,2026-03-20 14:08:16,True
+252,349.700000000001,Knuckle down,3,Phrasal Verb,,,,,,,,Bengali translation of Knuckle down,,,,,3,False,,2025-11-12 14:08:16,True
+253,-2.0,Elevation,1,Common Noun,The raising of something to a higher position or status.,,The elevation of local talent was central to the festival's mission.,,,,,Bengali translation of Elevation,,,,,0,False,,2025-10-10 14:08:16,True
+254,-34.0,Cut to the chase,2,Idiomatic Expression,To get to the most important part of something without delay.,,Cut to the chase â do we have the funding or not?,,,,,Bengali translation of Cut to the chase,,,,,3,False,,2025-07-07 14:08:16,True
+255,39.0,Preoccupied with,3,Appropriate Preposition,The correct preposition following 'preoccupied'.,,He seemed permanently preoccupied with what others thought of him.,,,,,Bengali translation of Preoccupied with,,,,,0,True,,2025-04-14 14:08:16,True
+256,-2.0,Elevation,1,Common Noun,The raising of something to a higher position or status.,,The elevation of local talent was central to the festival's mission.,,,,,,,,,,0,False,,2025-04-30 14:08:16,True
+257,-34.0,Cut to the chase,2,Idiomatic Expression,To get to the most important part of something without delay.,,Cut to the chase â do we have the funding or not?,,,,,,,,,,3,False,,2025-07-31 14:08:16,True
+258,39.0,Preoccupied with,3,Appropriate Preposition,The correct preposition following 'preoccupied'.,,He seemed permanently preoccupied with what others thought of him.,,,,,,,,,,0,False,,2025-04-28 14:08:16,True
+259,-2.0,Elevation,1,Common Noun,The raising of something to a higher position or status.,,,,,,,Bengali translation of Elevation,,,,,0,True,,2025-06-01 14:08:16,True
+260,-34.0,Cut to the chase,2,Idiomatic Expression,To get to the most important part of something without delay.,,,,,,,Bengali translation of Cut to the chase,,,,,3,False,,2025-06-29 14:08:16,True
+261,39.0,Preoccupied with,3,Appropriate Preposition,The correct preposition following 'preoccupied'.,,,,,,,Bengali translation of Preoccupied with,,,,,0,False,,2025-05-24 14:08:16,True
+262,-2.0,Elevation,1,Common Noun,,,The elevation of local talent was central to the festival's mission.,,,,,Bengali translation of Elevation,,,,,0,True,,2026-02-10 14:08:16,True
+263,-34.0,Cut to the chase,2,Idiomatic Expression,,,Cut to the chase â do we have the funding or not?,,,,,Bengali translation of Cut to the chase,,,,,3,False,,2025-05-09 14:08:16,True
+264,39.0,Preoccupied with,3,Appropriate Preposition,,,He seemed permanently preoccupied with what others thought of him.,,,,,Bengali translation of Preoccupied with,,,,,0,False,,2026-01-23 14:08:16,True
+265,-2.0,Elevation,1,Common Noun,The raising of something to a higher position or status.,,,,,,,,,,,,0,False,,2025-08-01 14:08:16,True
+266,-34.0,Cut to the chase,2,Idiomatic Expression,To get to the most important part of something without delay.,,,,,,,,,,,,3,False,,2026-02-12 14:08:16,True
+267,39.0,Preoccupied with,3,Appropriate Preposition,The correct preposition following 'preoccupied'.,,,,,,,,,,,,0,False,,2026-03-01 14:08:16,True
+268,-2.0,Elevation,1,Common Noun,,,The elevation of local talent was central to the festival's mission.,,,,,,,,,,0,False,,2025-05-16 14:08:16,True
+269,-34.0,Cut to the chase,2,Idiomatic Expression,,,Cut to the chase â do we have the funding or not?,,,,,,,,,,3,False,,2025-12-10 14:08:16,True
+270,39.0,Preoccupied with,3,Appropriate Preposition,,,He seemed permanently preoccupied with what others thought of him.,,,,,,,,,,0,True,,2026-04-10 14:08:16,True
+271,-2.0,Elevation,1,Common Noun,,,,,,,,Bengali translation of Elevation,,,,,0,False,,2025-09-17 14:08:16,True
+272,-34.0,Cut to the chase,2,Idiomatic Expression,,,,,,,,Bengali translation of Cut to the chase,,,,,3,True,,2025-11-13 14:08:16,True
+273,39.0,Preoccupied with,3,Appropriate Preposition,,,,,,,,Bengali translation of Preoccupied with,,,,,0,True,,2025-07-01 14:08:16,True
+274,349.80000000000103,Enfeeble,1,Transitive Verb,To make weak or feeble; to deprive of strength.,,Years of neglect had enfeebled the once proud institution.,,,,,Bengali translation of Enfeeble,,,,,1,True,,2025-06-30 14:08:16,True
+275,359.80000000000103,Behind the times,2,Idiomatic Expression,Old-fashioned; not keeping up with modern ideas or developments.,,An example sentence using Behind the times in context.,,,,,Bengali translation of Behind the times,,,,,3,True,,2026-03-12 14:08:16,True
+276,369.80000000000103,Break out,3,Phrasal Verb,To escape from a place; to start suddenly.,,An example sentence using Break out in context.,,,,,Bengali translation of Break out,,,,,0,False,,2026-01-11 14:08:16,True
+277,379.80000000000103,Affable,1,Adjective,"Friendly, good-natured, and easy to talk to.",,An example sentence using Affable in context.,,,,,,,,,,0,True,,2025-12-11 14:08:16,True
+278,389.80000000000103,Hold one's ground,2,Idiomatic Expression,The meaning or usage of Hold one's ground.,,An example sentence using Hold one's ground in context.,,,,,,,,,,0,False,,2026-03-11 14:08:16,True
+279,399.80000000000103,Seek out,3,Phrasal Verb,The meaning or usage of Seek out.,,An example sentence using Seek out in context.,,,,,,,,,,0,False,,2025-12-30 14:08:16,True
+280,409.80000000000103,Chatty,1,Adjective,Fond of chatting; notably talkative in a friendly way.,,,,,,,Bengali translation of Chatty,,,,,3,False,,2025-06-03 14:08:16,True
+281,419.80000000000103,Throw oneself into,2,Idiomatic Expression,To begin doing something with great enthusiasm and energy.,,,,,,,Bengali translation of Throw oneself into,,,,,0,False,,2025-09-20 14:08:16,True
+282,429.80000000000103,Prone to,3,Appropriate Preposition,The correct preposition following 'prone'.,,,,,,,Bengali translation of Prone to,,,,,0,False,,2025-05-03 14:08:16,True
+283,439.80000000000103,Expedite,1,Transitive Verb,,,The director intervened personally to expedite the approval.,,,,,Bengali translation of Expedite,,,,,1,False,,2026-02-04 14:08:16,True
+284,449.80000000000103,Bite the bullet,2,Idiomatic Expression,,,An example sentence using Bite the bullet in context.,,,,,Bengali translation of Bite the bullet,,,,,3,True,,2025-12-06 14:08:16,True
+285,459.80000000000103,Eligible for,3,Appropriate Preposition,,,She was eligible for the scholarship based on her academic record.,,,,,Bengali translation of Eligible for,,,,,0,True,,2026-04-05 14:08:16,True
+286,469.80000000000103,Fruitless,1,Adjective,The meaning or usage of Fruitless.,,,,,,,,,,,,0,True,,2025-07-13 14:08:16,True
+287,479.80000000000103,Go through the motions,2,Idiomatic Expression,To do something without real effort or interest; to perform mechanically.,,,,,,,,,,,,3,False,,2025-10-24 14:08:16,True
+288,489.80000000000103,Obsessed with,3,Appropriate Preposition,The meaning or usage of Obsessed with.,,,,,,,,,,,,0,False,,2025-08-27 14:08:16,True
+289,499.80000000000103,Erratic,1,Adjective,,,His erratic form made him a risk for any team seeking consistency.,,,,,,,,,,0,False,,2026-03-27 14:08:16,True
+290,509.80000000000103,Read the riot act,2,Idiomatic Expression,,,She read the riot act to the team after the third consecutive failure.,,,,,,,,,,3,False,,2025-08-30 14:08:16,True
+291,519.8000000000011,Look into,3,Phrasal Verb,,,The committee agreed to look into the matter before the next session.,,,,,,,,,,0,True,,2026-02-21 14:08:16,True
+292,529.8000000000011,Immaculate,1,Adjective,,,,,,,,Bengali translation of Immaculate,,,,,0,False,,2025-09-25 14:08:16,True
+293,539.8000000000011,Read the riot act,2,Idiomatic Expression,,,,,,,,Bengali translation of Read the riot act,,,,,3,False,,2025-06-04 14:08:16,True
+294,549.8000000000011,Look up to,3,Phrasal Verb,,,,,,,,Bengali translation of Look up to,,,,,0,True,,2025-11-07 14:08:16,True
+295,-24.0,Critic,1,Common Noun,The meaning or usage of Critic.,,An example sentence using Critic in context.,,,,,Bengali translation of Critic,,,,,0,False,,2025-07-18 14:08:16,True
+296,559.8000000000011,Bite the bullet,2,Idiomatic Expression,The meaning or usage of Bite the bullet.,,An example sentence using Bite the bullet in context.,,,,,Bengali translation of Bite the bullet,,,,,3,True,,2025-10-24 14:08:16,True
+297,559.9000000000011,Hold on,3,Phrasal Verb,The meaning or usage of Hold on.,,An example sentence using Hold on in context.,,,,,Bengali translation of Hold on,,,,,3,False,,2025-06-05 14:08:16,True
+298,-24.0,Critic,1,Common Noun,The meaning or usage of Critic.,,An example sentence using Critic in context.,,,,,,,,,,0,True,,2025-08-27 14:08:16,True
+299,560.0000000000011,Break new ground,2,Idiomatic Expression,To do something innovative or pioneering.,,An example sentence using Break new ground in context.,,,,,,,,,,0,False,,2025-08-07 14:08:16,True
+300,560.1000000000012,Qualified for,3,Appropriate Preposition,The correct preposition following 'qualified'.,,He was fully qualified for the role but was passed over anyway.,,,,,,,,,,0,False,,2026-03-27 14:08:16,True
+301,-24.0,Critic,1,Common Noun,The meaning or usage of Critic.,,,,,,,Bengali translation of Critic,,,,,0,False,,2026-01-07 14:08:16,True
+302,560.2000000000012,In broad daylight,2,Idiomatic Expression,"Done openly and without concealment, during the day.",,,,,,,Bengali translation of In broad daylight,,,,,0,False,,2025-12-30 14:08:16,True
+303,560.3000000000012,Call off,3,Phrasal Verb,To cancel an event or arrangement that had been planned.,,,,,,,Bengali translation of Call off,,,,,0,True,,2025-06-16 14:08:16,True
+304,-24.0,Critic,1,Common Noun,,,An example sentence using Critic in context.,,,,,Bengali translation of Critic,,,,,0,False,,2025-07-18 14:08:16,True
+305,560.4000000000012,Catch red-handed,2,Idiomatic Expression,,,An example sentence using Catch red-handed in context.,,,,,Bengali translation of Catch red-handed,,,,,3,True,,2025-04-25 14:08:16,True
+306,560.5000000000013,Break out,3,Phrasal Verb,,,An example sentence using Break out in context.,,,,,Bengali translation of Break out,,,,,0,False,,2026-01-02 14:08:16,True
+307,-24.0,Critic,1,Common Noun,The meaning or usage of Critic.,,,,,,,,,,,,0,False,,2025-07-18 14:08:16,True
+308,560.6000000000013,Sit on the fence,2,Idiomatic Expression,The meaning or usage of Sit on the fence.,,,,,,,,,,,,3,True,,2025-09-26 14:08:16,True
+309,560.7000000000013,Accuse of,3,Appropriate Preposition,The correct preposition following 'accuse'.,,,,,,,,,,,,0,True,,2026-01-06 14:08:16,True
+310,-24.0,Critic,1,Common Noun,,,An example sentence using Critic in context.,,,,,,,,,,0,True,,2025-04-22 14:08:16,True
+311,560.8000000000013,Act promptly,2,Idiomatic Expression,,,An example sentence using Act promptly in context.,,,,,,,,,,0,False,,2025-09-07 14:08:16,True
+312,560.9000000000013,Catch up,3,Phrasal Verb,,,An example sentence using Catch up in context.,,,,,,,,,,0,False,,2025-10-31 14:08:16,True
+313,-24.0,Critic,1,Common Noun,,,,,,,,Bengali translation of Critic,,,,,0,False,,2026-01-28 14:08:16,True
+314,561.0000000000014,Take the plunge,2,Idiomatic Expression,,,,,,,,Bengali translation of Take the plunge,,,,,3,True,,2025-06-16 14:08:16,True
+315,561.1000000000014,Averse to,3,Appropriate Preposition,,,,,,,,Bengali translation of Averse to,,,,,1,False,,2026-01-09 14:08:16,True
+316,-90.0,Strip,1,Transitive Verb,The meaning or usage of Strip.,,An example sentence using Strip in context.,,,,,Bengali translation of Strip,,,,,0,False,,2026-03-21 14:08:16,True
+317,-77.0,Under the radar,2,Idiomatic Expression,Without being noticed or detected by others.,,The initiative had been operating under the radar for almost a year.,,,,,Bengali translation of Under the radar,,,,,3,True,,2025-08-31 14:08:16,True
+318,-37.0,Look up to,3,Phrasal Verb,To admire and respect someone.,,An example sentence using Look up to in context.,,,,,Bengali translation of Look up to,,,,,0,False,,2025-05-09 14:08:16,True
+319,-90.0,Strip,1,Transitive Verb,The meaning or usage of Strip.,,An example sentence using Strip in context.,,,,,,,,,,0,False,,2025-08-23 14:08:16,True
+320,-77.0,Under the radar,2,Idiomatic Expression,Without being noticed or detected by others.,,The initiative had been operating under the radar for almost a year.,,,,,,,,,,3,True,,2025-08-11 14:08:16,True
