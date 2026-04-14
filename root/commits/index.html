@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Dictionary — Commits</title>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#F5F3EE; --surface:#FFFFFF; --surface2:#EEF0F5;
+  --navy:#1B2E4B; --navy-light:#2C4470;
+  --syn:#D4973B; --syn-light:#F0C97A; --syn-bg:#FDF6E9;
+  --ant:#2A8C7E; --ant-light:#3DB5A4; --ant-bg:#E8F7F5;
+  --def:#5B9BD5; --def-light:#A8CFEE; --def-bg:#EBF4FB;
+  --accent:#D4973B; --accent-light:#F0C97A; --accent-bg:#FDF6E9;
+  --text:#1A1A2E; --text-secondary:#5A6175;
+  --border:#E2E4EC;
+  --shadow:0 2px 12px rgba(27,46,75,0.08);
+  --shadow-md:0 4px 20px rgba(27,46,75,0.12);
+  --radius:14px;
+  --danger:#C62828; --danger-bg:#FEE2E2; --danger-border:#FECACA;
+  --warn:#b45309; --warn-bg:#fef3c7; --warn-border:#fde68a;
+  --success:#2A8C7E; --success-bg:#E8F7F5;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'DM Sans',sans-serif;font-size:15px;background:var(--bg);color:var(--text);min-height:100vh;max-width:430px;margin:0 auto;-webkit-tap-highlight-color:transparent;overflow-x:hidden;display:flex;flex-direction:column;}
+button{font-family:'DM Sans',sans-serif;cursor:pointer;}
+.hidden{display:none!important;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+
+/* ── NAVBAR ── */
+.navbar{background:var(--navy);padding:10px 14px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:100;box-shadow:0 2px 8px rgba(0,0,0,.2);min-height:52px;gap:8px;}
+.app-title{font-family:'Lora',serif;font-size:17px;font-weight:700;color:var(--accent-light);}
+.nav-right{display:flex;align-items:center;gap:5px;flex-shrink:0;}
+.nav-btn{height:32px;border-radius:8px;border:none;background:rgba(255,255,255,.08);color:var(--accent-light);display:flex;align-items:center;justify-content:center;gap:4px;transition:all .15s;padding:0 10px;font-size:11px;font-weight:700;font-family:'DM Sans',sans-serif;letter-spacing:.2px;white-space:nowrap;cursor:pointer;}
+.nav-btn:hover{background:rgba(255,255,255,.16);}
+.nav-btn.crud-btn{background:rgba(42,140,126,.2);color:var(--ant-light);}
+
+/* ── TABS ── */
+.crud-tabs{background:var(--surface);border-bottom:1px solid var(--border);display:flex;position:sticky;top:52px;z-index:99;}
+.crud-tab{flex:1;padding:11px 6px;border:none;background:none;font-size:11px;font-weight:700;color:var(--text-secondary);cursor:pointer;transition:all .15s;border-bottom:2.5px solid transparent;display:flex;align-items:center;justify-content:center;gap:4px;letter-spacing:.2px;}
+.crud-tab.active{color:var(--accent);border-bottom-color:var(--accent);}
+
+/* ── PANEL BODY ── */
+.crud-body{flex:1;padding:14px 14px 80px;animation:fadeUp .25s ease both;}
+.crud-panel{display:none;}
+.crud-panel.active{display:block;}
+
+/* ── COMMITS ── */
+.commits-search-wrap{position:relative;margin-bottom:10px;}
+.commits-search{width:100%;padding:9px 36px 9px 13px;border-radius:10px;border:1.5px solid var(--border);background:var(--surface);font-size:13px;color:var(--text);outline:none;transition:border-color .2s;box-shadow:var(--shadow);}
+.commits-search:focus{border-color:var(--accent);}
+.commits-search-icon{position:absolute;right:11px;top:50%;transform:translateY(-50%);color:var(--text-secondary);pointer-events:none;}
+.commits-count-bar{display:flex;align-items:center;justify-content:space-between;padding:4px 2px;margin-bottom:8px;}
+.commits-count{font-size:11px;color:var(--text-secondary);font-weight:500;}
+.commits-selected-label{font-size:11px;font-weight:700;color:var(--accent);display:none;}
+.commits-selected-label.show{display:block;}
+.commit-log-item{background:var(--surface);border-radius:12px;border:1px solid var(--border);box-shadow:var(--shadow);margin-bottom:7px;overflow:hidden;animation:fadeUp .2s ease both;cursor:pointer;transition:border-color .15s;}
+.commit-log-item:hover{border-color:var(--accent-light);}
+.commit-log-item.selected{border-color:var(--accent);background:var(--accent-bg);}
+.commit-log-item.state-dropped-item{opacity:.55;}
+.commit-log-item.state-published-item{opacity:.45;}
+.commit-item-header{padding:11px 13px;display:flex;align-items:center;gap:10px;}
+.commit-op-icon{width:30px;height:30px;border-radius:8px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:13px;}
+.commit-item-body{flex:1;min-width:0;}
+.commit-item-word{font-family:'Lora',serif;font-size:13px;font-weight:600;color:var(--navy);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.commit-item-meta{font-size:10px;color:var(--text-secondary);margin-top:1px;}
+.commit-item-right{display:flex;align-items:center;gap:7px;flex-shrink:0;}
+.commit-state{font-size:9px;font-weight:700;padding:2px 8px;border-radius:999px;letter-spacing:.3px;}
+.state-draft{background:var(--def-bg);color:var(--def);}
+.state-dropped{background:var(--surface2);color:var(--text-secondary);}
+.state-published{background:var(--ant-bg);color:var(--ant);}
+.commit-check{width:18px;height:18px;border-radius:50%;border:2px solid var(--border);display:flex;align-items:center;justify-content:center;transition:all .15s;font-size:9px;flex-shrink:0;}
+.commit-log-item.selected .commit-check{background:var(--accent);border-color:var(--accent);color:#fff;}
+.empty-state{text-align:center;padding:40px 20px;color:var(--text-secondary);font-size:13px;}
+.empty-state-icon{font-size:32px;margin-bottom:10px;}
+
+/* ── FORM ELEMENTS (for Import tab) ── */
+.form-section{background:var(--surface);border-radius:var(--radius);border:1px solid var(--border);box-shadow:var(--shadow);margin-bottom:14px;overflow:hidden;}
+.form-section-header{padding:10px 16px;background:var(--navy);display:flex;align-items:center;justify-content:space-between;}
+.form-section-title{font-family:'Lora',serif;font-size:13px;font-weight:600;color:var(--accent-light);}
+.form-section-body{padding:13px 15px;display:flex;flex-direction:column;gap:11px;}
+.btn-primary{flex:2;padding:13px;border-radius:var(--radius);border:none;background:var(--navy);color:var(--accent-light);font-size:14px;font-weight:700;transition:all .18s;cursor:pointer;}
+.import-drop-zone{border:2px dashed var(--border);border-radius:var(--radius);padding:22px;text-align:center;background:var(--surface2);cursor:pointer;transition:all .2s;}
+.import-drop-zone:hover{border-color:var(--accent);background:var(--accent-bg);}
+.import-drop-icon{font-size:22px;margin-bottom:6px;}
+.import-drop-title{font-size:13px;font-weight:600;color:var(--navy);margin-bottom:3px;}
+.import-drop-sub{font-size:11px;color:var(--text-secondary);}
+.import-drop-sub span{color:var(--accent);font-weight:600;}
+
+/* ── SIDEBAR ── */
+.sidebar-overlay{position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:200;opacity:0;pointer-events:none;transition:opacity .25s;}
+.sidebar-overlay.open{opacity:1;pointer-events:all;}
+.sidebar{position:fixed;top:0;right:0;bottom:0;width:250px;background:var(--navy);z-index:201;transform:translateX(100%);transition:transform .25s ease;overflow-y:auto;display:flex;flex-direction:column;}
+.sidebar.open{transform:translateX(0);}
+.sidebar-header{padding:14px 16px 11px;border-bottom:1px solid rgba(255,255,255,.1);display:flex;align-items:center;justify-content:space-between;}
+.sidebar-title{font-family:'Lora',serif;font-size:15px;font-weight:700;color:var(--accent-light);}
+.sidebar-close{width:28px;height:28px;border-radius:7px;border:none;background:rgba(255,255,255,.08);color:rgba(255,255,255,.6);font-size:15px;display:flex;align-items:center;justify-content:center;cursor:pointer;}
+.sidebar-section-label{font-size:9px;font-weight:700;letter-spacing:1.2px;text-transform:uppercase;color:rgba(255,255,255,.3);padding:12px 16px 5px;}
+.menu-item{display:flex;align-items:center;gap:11px;padding:11px 16px;cursor:pointer;transition:background .15s;border:none;background:none;width:100%;text-align:left;}
+.menu-item:hover{background:rgba(255,255,255,.06);}
+.menu-icon{width:32px;height:32px;border-radius:8px;flex-shrink:0;display:flex;align-items:center;justify-content:center;}
+.menu-label{font-size:13px;font-weight:600;color:rgba(255,255,255,.9);}
+.menu-desc{font-size:10px;color:rgba(255,255,255,.4);margin-top:1px;}
+.sidebar-divider{height:1px;background:rgba(255,255,255,.08);margin:5px 0;}
+
+/* ── OPTIONS SHEET ── */
+.options-overlay{position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:200;opacity:0;pointer-events:none;transition:opacity .25s;}
+.options-overlay.open{opacity:1;pointer-events:all;}
+.options-sheet{position:fixed;bottom:0;left:50%;transform:translateX(-50%) translateY(100%);width:100%;max-width:430px;background:var(--surface);border-radius:24px 24px 0 0;z-index:201;max-height:80vh;overflow-y:auto;transition:transform .25s ease;box-shadow:0 -4px 30px rgba(0,0,0,.15);}
+.options-sheet.open{transform:translateX(-50%) translateY(0);}
+.options-handle{width:34px;height:4px;background:var(--border);border-radius:2px;margin:11px auto 0;}
+.options-header{padding:13px 18px 10px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border);}
+.options-title{font-family:'Lora',serif;font-size:16px;font-weight:700;color:var(--navy);}
+.options-reset{font-size:12px;font-weight:600;color:var(--accent);background:none;border:none;cursor:pointer;}
+.options-body{padding:14px 18px 32px;display:flex;flex-direction:column;gap:16px;}
+.opt-group-label{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--text-secondary);margin-bottom:7px;}
+.opt-chips{display:flex;flex-wrap:wrap;gap:5px;}
+.opt-chip{padding:5px 12px;border-radius:999px;border:1.5px solid var(--border);background:var(--surface2);font-size:11px;font-weight:600;color:var(--text-secondary);cursor:pointer;transition:all .15s;}
+.opt-chip.active{border-color:var(--accent);background:var(--accent-bg);color:var(--accent);}
+.opt-chip.ant-chip.active{border-color:var(--ant);background:var(--ant-bg);color:var(--ant);}
+.sort-option{display:flex;align-items:center;gap:9px;padding:9px 13px;border-radius:9px;border:1.5px solid var(--border);background:var(--surface2);cursor:pointer;transition:all .15s;margin-bottom:5px;}
+.sort-option.active{border-color:var(--accent);background:var(--accent-bg);}
+.sort-option-label{font-size:12px;font-weight:500;color:var(--text);flex:1;}
+.sort-option.active .sort-option-label{color:var(--accent);font-weight:600;}
+.sort-dot{width:7px;height:7px;border-radius:50%;border:2px solid var(--border);flex-shrink:0;}
+.sort-option.active .sort-dot{border-color:var(--accent);background:var(--accent);}
+.btn-secondary{flex:1;padding:13px;border-radius:var(--radius);border:1.5px solid var(--border);background:var(--surface2);font-size:14px;font-weight:600;color:var(--text-secondary);cursor:pointer;}
+.btn-danger{padding:13px;border-radius:var(--radius);border:none;background:var(--danger-bg);color:var(--danger);font-size:13px;font-weight:700;cursor:pointer;}
+
+/* ── TOAST ── */
+.toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(12px);background:var(--navy);color:#fff;font-size:13px;font-weight:500;padding:10px 20px;border-radius:999px;opacity:0;pointer-events:none;transition:all .25s;z-index:999;white-space:nowrap;box-shadow:var(--shadow-md);}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
+.toast.success{background:var(--ant);}
+.toast.error{background:var(--danger);}
+.toast.warn{background:var(--warn);}
+</style>
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="app-title">Commits</div>
+  <div class="nav-right">
+    <button class="nav-btn" id="optionsBtn">
+      <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/><circle cx="4" cy="12" r="2" fill="currentColor" stroke="none"/></svg>
+      Options
+    </button>
+    <button class="nav-btn" id="menuBtn">
+      <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+      Menu
+    </button>
+    <button class="nav-btn crud-btn" id="crudBtn">
+      <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+      CRUD
+    </button>
+  </div>
+</nav>
+
+<div class="crud-tabs">
+  <button class="crud-tab active" data-tab="logs">
+    <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+    Logs
+  </button>
+  <button class="crud-tab" data-tab="removed">
+    <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/></svg>
+    Removed
+  </button>
+  <button class="crud-tab" data-tab="import">
+    <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+    Import
+  </button>
+</div>
+
+<div class="crud-body">
+
+  <!-- LOGS TAB -->
+  <div class="crud-panel active" id="panel-logs">
+    <div class="commits-search-wrap">
+      <input class="commits-search" id="logsSearch" type="text" placeholder="Search log entries…"/>
+      <svg class="commits-search-icon" viewBox="0 0 24 24" width="13" height="13" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </div>
+    <div class="commits-count-bar">
+      <span class="commits-count" id="logsCount">0 actions</span>
+      <span class="commits-selected-label" id="commitsSelectedLabel">0 selected</span>
+    </div>
+    <div id="commitLogList"></div>
+    <div class="empty-state hidden" id="logsEmpty">
+      <div class="empty-state-icon">📋</div>
+      <div>No pending actions</div>
+      <div style="font-size:11px;margin-top:4px;color:var(--text-secondary)">Actions queued in CRUD will appear here</div>
+    </div>
+  </div>
+
+  <!-- REMOVED TAB -->
+  <div class="crud-panel" id="panel-removed">
+    <div class="commits-count-bar">
+      <span class="commits-count" id="removedCount">0 removed</span>
+    </div>
+    <div id="removedList"></div>
+    <div class="empty-state" id="removedEmpty">
+      <div class="empty-state-icon">🗑</div>
+      <div>No removed actions</div>
+      <div style="font-size:11px;margin-top:4px;color:var(--text-secondary)">Deleted log entries appear here</div>
+    </div>
+  </div>
+
+  <!-- IMPORT TAB -->
+  <div class="crud-panel" id="panel-import">
+    <div class="form-section">
+      <div class="form-section-header"><span class="form-section-title">Pull from DB</span></div>
+      <div class="form-section-body">
+        <div style="font-size:12px;color:var(--text-secondary);line-height:1.5">Fetch drafted actions from the logs table back into this session.</div>
+        <button class="btn-primary" id="pullDraftsBtn">Pull Drafts from DB</button>
+      </div>
+    </div>
+    <div class="form-section">
+      <div class="form-section-header"><span class="form-section-title">Pull from File</span></div>
+      <div class="form-section-body">
+        <div style="font-size:12px;color:var(--text-secondary);line-height:1.5">Import a JSON log file. Useful for offline workflows.</div>
+        <div class="import-drop-zone" id="logImportDrop">
+          <div class="import-drop-icon">📄</div>
+          <div class="import-drop-title">Drop JSON log file</div>
+          <div class="import-drop-sub">or <span>browse file</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ══ MENU SIDEBAR ══ -->
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+<div class="sidebar" id="commitsMenuSidebar">
+  <div class="sidebar-header">
+    <span class="sidebar-title">Log Operations</span>
+    <button class="sidebar-close" id="menuCloseBtn">✕</button>
+  </div>
+  <div class="sidebar-section-label">Selected</div>
+  <button class="menu-item" id="menuPublishSelected">
+    <div class="menu-icon" style="background:rgba(42,140,126,.2);color:var(--ant-light)"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+    <div><div class="menu-label">Mark Published</div><div class="menu-desc">Mark selected as published</div></div>
+  </button>
+  <button class="menu-item" id="menuDraftSelected">
+    <div class="menu-icon" style="background:rgba(91,155,213,.15);color:var(--def-light)"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg></div>
+    <div><div class="menu-label">Mark Draft</div><div class="menu-desc">Reset selected to draft state</div></div>
+  </button>
+  <button class="menu-item" id="menuDropSelected">
+    <div class="menu-icon" style="background:rgba(255,255,255,.08);color:rgba(255,255,255,.4)"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></div>
+    <div><div class="menu-label">Drop</div><div class="menu-desc">Skip on Publish All</div></div>
+  </button>
+  <button class="menu-item" id="menuDeleteSelected">
+    <div class="menu-icon" style="background:rgba(198,40,40,.2);color:#ef9a9a"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M9 6V4h6v2"/></svg></div>
+    <div><div class="menu-label">Delete</div><div class="menu-desc">Move to Removed tab</div></div>
+  </button>
+  <div class="sidebar-divider"></div>
+  <div class="sidebar-section-label">Global</div>
+  <button class="menu-item" id="menuPublishAll">
+    <div class="menu-icon" style="background:rgba(42,140,126,.2);color:var(--ant-light)"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg></div>
+    <div><div class="menu-label">Publish All</div><div class="menu-desc">Apply all non-dropped actions</div></div>
+  </button>
+  <button class="menu-item" id="menuDiscardAll">
+    <div class="menu-icon" style="background:rgba(198,40,40,.2);color:#ef9a9a"><svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"/><path d="M9 6V4h6v2"/></svg></div>
+    <div><div class="menu-label">Discard All</div><div class="menu-desc">Clear entire queue permanently</div></div>
+  </button>
+</div>
+
+<!-- ══ OPTIONS SHEET ══ -->
+<div class="options-overlay" id="optionsOverlay"></div>
+<div class="options-sheet" id="optionsSheet">
+  <div class="options-handle"></div>
+  <div class="options-header">
+    <span class="options-title">Log Options</span>
+    <button class="options-reset" id="optionsResetBtn">Reset</button>
+  </div>
+  <div class="options-body">
+    <div>
+      <div class="opt-group-label">Filter by State</div>
+      <div class="opt-chips" id="filterState">
+        <div class="opt-chip active" data-value="all">All</div>
+        <div class="opt-chip" data-value="draft">Draft</div>
+        <div class="opt-chip" data-value="dropped">Dropped</div>
+        <div class="opt-chip ant-chip" data-value="published">Published</div>
+      </div>
+    </div>
+    <div>
+      <div class="opt-group-label">Filter by Operation</div>
+      <div class="opt-chips" id="filterOp">
+        <div class="opt-chip active" data-value="all">All</div>
+        <div class="opt-chip" data-value="create">Create</div>
+        <div class="opt-chip" data-value="edit">Edit</div>
+        <div class="opt-chip" data-value="update">Update</div>
+        <div class="opt-chip" data-value="rename">Rename</div>
+        <div class="opt-chip" data-value="regroup">Regroup</div>
+        <div class="opt-chip" data-value="trash">Trash</div>
+        <div class="opt-chip" data-value="disable">Disable</div>
+        <div class="opt-chip" data-value="map">Map</div>
+        <div class="opt-chip" data-value="import">Import</div>
+      </div>
+    </div>
+    <div>
+      <div class="opt-group-label">Sort By</div>
+      <div class="sort-option active" data-sort="newest"><div class="sort-dot"></div><span class="sort-option-label">Newest first</span></div>
+      <div class="sort-option" data-sort="oldest"><div class="sort-dot"></div><span class="sort-option-label">Oldest first</span></div>
+      <div class="sort-option" data-sort="word_asc"><div class="sort-dot"></div><span class="sort-option-label">Word A → Z</span></div>
+    </div>
+    <div style="display:flex;gap:8px;padding-top:4px;">
+      <button class="btn-secondary" style="font-size:12px;padding:11px;border-radius:10px" id="optionsCloseBtn">Close</button>
+      <button class="btn-primary" style="font-size:12px;padding:11px;border-radius:10px;flex:2" id="optionsApplyBtn">Apply</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toastEl"></div>
+
+<script src="../core/state.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
