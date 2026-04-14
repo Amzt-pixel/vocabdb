@@ -27,7 +27,7 @@ let _toastTimer        = null;
 
 window.addEventListener('DOMContentLoaded', () => {
   if (!isLoggedIn()) {
-    window.location.href = '../entry-management/crud.html';
+    window.location.href = '../crud/';
     return;
   }
   bindNav();
@@ -44,7 +44,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 function bindNav() {
   document.getElementById('crudBtn').addEventListener('click', () => {
-    window.location.href = '../entry-management/crud.html';
+    window.location.href = '../crud/';
   });
   document.getElementById('menuBtn').addEventListener('click', openMenu);
   document.getElementById('optionsBtn').addEventListener('click', openOptions);
